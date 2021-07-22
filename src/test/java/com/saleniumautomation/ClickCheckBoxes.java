@@ -1,11 +1,9 @@
 package com.saleniumautomation;
 
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ClickCheckBoxes {
@@ -26,9 +24,7 @@ public class ClickCheckBoxes {
 			 WebElement el1 = elements.get(i);
 			 el1.click();
 		 }
-		 
 		 driver.close();
 
 	}
-	
 }
